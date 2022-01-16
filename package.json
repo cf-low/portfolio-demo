@@ -1,5 +1,5 @@
 {
-  "homepage": "cf-low.github.io",
+  "homepage": "https://cf-low.github.io/portfolio",
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
@@ -26,7 +26,6 @@
     "extends": 
       "react-app",
       "react-app/jest"
-    ]
   },
   "browserslist": {
     "production": [
