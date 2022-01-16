@@ -2,13 +2,17 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+
+  setCount(count +1);
+  setCount(count+1);
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Count is :{count}
         </p>
+        <button onClick={onClick}>Add</button>
         <a
           className="App-link"
           href="https://reactjs.org"
